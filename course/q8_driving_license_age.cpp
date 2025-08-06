@@ -11,21 +11,22 @@ using namespace std;
 
 int main()
 {
-    int num1, num2;
+    int age;
 
-    cout << "Enter the num1: ";
-    cin >> num1;
+    cout << "Enter the age: ";
+    cin >> age;
 
-    cout << "Enter the num2: ";
-    cin >> num2;
-
-    if (num1 > num2)
+    if (age <= 0)
     {
-        cout << "num1 is greater than num2!";
+        cout << "Enter valid age!";
+    }
+    else if (age >= 18)
+    {
+        cout << "You can apply for driving license!";
     }
     else
     {
-        cout << "num2 is greater than num1!";
+        cout << "You can't apply for driving license!";
     }
 
     return 0;

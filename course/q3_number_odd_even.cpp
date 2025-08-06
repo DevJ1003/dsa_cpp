@@ -11,21 +11,18 @@ using namespace std;
 
 int main()
 {
-    int num1, num2;
+    int num;
 
-    cout << "Enter the num1: ";
-    cin >> num1;
+    cout << "Enter the num: ";
+    cin >> num;
 
-    cout << "Enter the num2: ";
-    cin >> num2;
-
-    if (num1 > num2)
+    if (num % 2 == 0)
     {
-        cout << "num1 is greater than num2!";
+        cout << "Given number is even!";
     }
     else
     {
-        cout << "num2 is greater than num1!";
+        cout << "Given number is odd!";
     }
 
     return 0;

@@ -11,22 +11,18 @@ using namespace std;
 
 int main()
 {
-    int num1, num2;
+    int num, i;
+    int fact = 1;
 
-    cout << "Enter the num1: ";
-    cin >> num1;
+    cout << "Enter the number: ";
+    cin >> num;
 
-    cout << "Enter the num2: ";
-    cin >> num2;
-
-    if (num1 > num2)
+    for (i = 1; i <= num; i++)
     {
-        cout << "num1 is greater than num2!";
+        fact = fact * i;
     }
-    else
-    {
-        cout << "num2 is greater than num1!";
-    }
+
+    cout << "The factorial for given number: " << fact << endl;
 
     return 0;
 }

@@ -1,0 +1,6 @@
+1. Course : DSA using cpp by apna college youtube channel.
+2. Listing all the questions and solutions for them.
+3. Language used : C++
+4. Local compiler not compatible so using 'online gdb compiler'
+5. Updating every code in github repo.
+6. Hope to finish this course successfully! :)

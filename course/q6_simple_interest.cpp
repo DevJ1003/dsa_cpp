@@ -11,22 +11,20 @@ using namespace std;
 
 int main()
 {
-    int num1, num2;
+    float p, r, t;
+    float si;
 
-    cout << "Enter the num1: ";
-    cin >> num1;
+    cout << "Enter the principle amount: ";
+    cin >> p;
 
-    cout << "Enter the num2: ";
-    cin >> num2;
+    cout << "Enter the rate of interest (per annum): ";
+    cin >> r;
 
-    if (num1 > num2)
-    {
-        cout << "num1 is greater than num2!";
-    }
-    else
-    {
-        cout << "num2 is greater than num1!";
-    }
+    cout << "Enter the time period (in months): ";
+    cin >> t;
+
+    si = (p * r * t) / 100;
+    cout << "The SI for given details: " << si << endl;
 
     return 0;
 }
