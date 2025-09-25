@@ -7,22 +7,21 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 *******************************************************************************/
 #include <iostream>
-#include <math.h>
 using namespace std;
 
 int main()
 {
-    int i, j, k;
 
-    cout << "Enter the value for same base : ";
-    cin >> j;
+    string str = "teddy";
+    string rev;
 
-    for (i = 0; i <= 100; i++)
+    for (int i = str.length() - 1; i >= 0; i--)
     {
 
-        k = pow(j, i);
-        cout << j << "^" << i << "=" << k << endl;
+        rev = rev + str[i];
     }
+
+    cout << rev;
 
     return 0;
 }
