@@ -21,7 +21,7 @@ int main()
         }
     }
 
-    cout << "Total words: " << count;
+    cout << "Total words: " << count + 1;
 
     return 0;
 }

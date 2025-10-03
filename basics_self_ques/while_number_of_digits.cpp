@@ -20,7 +20,6 @@ int main()
 
     while (x != 0)
     {
-
         x = x / 10;
         count++;
     }

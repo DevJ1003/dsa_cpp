@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 
-    int n, sum = 0;
+    int n;
 
     cout << "Enter the number of elements: ";
     cin >> n;
